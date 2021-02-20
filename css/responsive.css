@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+#navbar {
+  flex-direction: column;
+}
 #navbar ul li a {
   padding: 14px 17px;
   display: block;
