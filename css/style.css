@@ -23,9 +23,8 @@ li {
 }
 #navbar {
   display: flex;
-  position: relative;
+  position: sticky;
   top: 0;
-  left: 0;
 }
 #navbar ul li a {
   text-decoration: none;
