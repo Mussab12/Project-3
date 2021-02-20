@@ -25,6 +25,7 @@ li {
 #navbar {
   display: flex;
   position: sticky;
+  align-items: center;
   top: 0;
 }
 #navbar ul li a {
