@@ -66,6 +66,7 @@ p {
 }
 .head_secondary {
   color: black;
+  font-size: 2rem;
 }
 /*Product Section*/
 #product {
@@ -90,4 +91,55 @@ p {
 
 #product p {
   color: black;
+}
+
+#contactbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formgroup {
+  padding: 10px;
+  margin: 10px;
+}
+
+input[type="number"] {
+  border-radius: 20px;
+  margin-right: 4px;
+  border: none;
+
+  border: 1px solid black;
+}
+input[type="email"] {
+  border-radius: 20px;
+  margin-left: 17px;
+  border: none;
+
+  border: 1px solid black;
+}
+input[type="text"] {
+  border-radius: 20px;
+  margin-left: 17px;
+  border: none;
+
+  border: 1px solid black;
+}
+input[type="password"] {
+  border-radius: 20px;
+  margin-left: 1px;
+  border: none;
+
+  border: 1px solid black;
+}
+#contactform-container::before {
+  content: "";
+  background-color: gray;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+#contactform-container {
+  position: relative;
 }
