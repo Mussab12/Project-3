@@ -1,8 +1,7 @@
-html,
-body {
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 #navbar ul {
@@ -20,7 +19,6 @@ li {
   z-index: -1;
   width: 100%;
   height: 100%;
-  
 }
 #navbar {
   display: flex;
@@ -31,7 +29,8 @@ li {
 #navbar ul li a {
   text-decoration: none;
   color: #000000;
-  padding: 10px 37px;
+  padding: 19px 37px;
+  display: block;
 }
 /*Section GraphicCards*/
 #graphic_cards {
@@ -40,10 +39,11 @@ li {
   align-items: center;
   padding: 3px 20px;
   justify-content: center;
+  height: 640px;
 }
 #graphic_cards::before {
   content: "";
-  background: url('../css/pexels-nana-dua-4581613.jpg') no-repeat center
+  background: url("../css/pexels-nana-dua-4581613.jpg") no-repeat center
     center/cover;
   position: absolute;
   top: 0;
@@ -72,5 +72,22 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 246px;
+  margin: 100px;
+}
+#product img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+#product .box {
+  border: 2px solid black;
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 60px;
+}
+
+#product p {
+  color: black;
 }
