@@ -12,7 +12,7 @@
 }
 
 .head_secondary {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 #graphic_cards {
   padding: 6px 7px;
@@ -25,5 +25,8 @@
   flex-direction: column;
 }
 #product .box {
-  width: 308px;
+  width: 357px;
+}
+#contactform-container {
+  width: 375px;
 }
