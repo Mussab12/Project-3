@@ -15,11 +15,15 @@
   font-size: 2rem;
 }
 #graphic_cards {
-  padding: 83px 7px;
+  padding: 354px 7px;
 }
 .head_primary {
   font-size: 2rem;
 }
 #product {
-  margin: 200px 2px;
+  margin: 36px 2px;
+  flex-direction: column;
+}
+#product .box {
+  width: 308px;
 }
